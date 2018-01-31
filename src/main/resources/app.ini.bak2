@@ -1,0 +1,37 @@
+#hdfs server address
+hdfs=hdfs://siclusterb
+JIAKUAN_SW_HTTP=hdfs://siclusterb/ODM/JIAKUAN/QY/JIAKUAN_SW_HTTP
+JIAKUAN_SF_HTTP=hdfs://siclusterb/ODM/JIAKUAN/QY/JIAKUAN_SF_HTTP
+JIAKUAN_IDC_HTTP=hdfs://siclusterb/ODM/JIAKUAN/QY/JIAKUAN_IDC_HTTP
+JIAKUAN_CACHE_HTTP=hdfs://siclusterb/ODM/JIAKUAN/QY/JIAKUAN_CACHE_HTTP
+JIAKUAN_SW_COMMON=hdfs://siclusterb/ODM/JIAKUAN/QY/JIAKUAN_SW_COMMON
+JIAKUAN_SF_COMMON=hdfs://siclusterb/ODM/JIAKUAN/QY/JIAKUAN_SF_COMMON
+JIAKUAN_IDC_COMMON=hdfs://siclusterb/ODM/JIAKUAN/QY/JIAKUAN_IDC_COMMON
+JIAKUAN_CACHE_COMMON=hdfs://siclusterb/ODM/JIAKUAN/QY/JIAKUAN_CACHE_COMMON
+d_ry_app_type=hdfs://siclusterb/apps/hive/warehouse/qingyuan_ziyan_01/d_ry_app_type
+f_ry_account_match_w=hdfs://siclusterb/apps/hive/warehouse/qingyuan_ziyan_01/f_ry_account_match_w
+
+#oracle config
+oracle_url=jdbc:oracle:thin:@192.168.35.25:1521/qy_jiakuan
+oracle_user=QY_CHENLANG
+oracle_password=Qy_2017!CHenlang0630
+drive_name=oracle.jdbc.driver.OracleDriver
+F_RY_TCP_CELL_15M_Partition_Prefix=F_RY_TCP_CELL_P_
+F_RY_HTTP_CELL_15M_Partition_Prefix=F_RY_HTTP_CELL_P_
+F_RY_TCP_PERFORMANCE_Partition_Prefix=F_RY_TCP_PERF_P_
+F_RY_FTP_PERFORMANCE_Partition_Prefix=F_RY_FTP_PERF_P_
+F_RY_MAIL_PERFORMANCE_Partition_Prefix=F_RY_MAIL_PERF_P_
+F_RY_POST_PERFORMANCE_Partition_Prefix=F_RY_POST_PERF_P_
+F_RY_GET_PERFORMANCE_Partition_Prefix=F_RY_GET_PERF_P_
+F_RY_HTTP_KPI_15M_Partition_Prefix=F_RY_HTTP_KPI_P_
+F_QY_OVERALL_SCORE_D_Partition_Prefix=F_QY_OVERALL_SCORE_P_
+#kerberos security identification
+business_user=qingyuan_ziyan_01
+kbr_keytab=/home/qingyuan_ziyan_01/qingyuan_ziyan_01.keytab
+kbr_conf=/etc/krb5.conf
+hdfs_tmp_path=hdfs://siclusterb/tmp/qingyuan_ziyan_01
+#hdfs kerberos
+core_site=/etc/hadoop/conf/core-site.xml
+hdfs_site=/etc/hadoop/conf/hdfs-site.xml
+mapred_default=/etc/hadoop/conf/mapred-site.xml
+
